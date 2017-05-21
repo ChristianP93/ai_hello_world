@@ -1,0 +1,30 @@
+{
+  "name": "ai_hello_word",
+  "version": "1.0.0",
+  "description": "first_test",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js --presets es2015,stage-2",
+    "test": "npm test"
+  },
+  "author": "christian pengu",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "mnist": "^1.0.5",
+    "synaptic": "^1.0.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChristianP93/ai_hello_world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChristianP93/ai_hello_world/issues"
+  },
+  "homepage": "https://github.com/ChristianP93/ai_hello_world"
+}
